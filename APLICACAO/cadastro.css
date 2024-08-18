@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    text-align: center;
+}
+h2{
+    margin-top: 10ex;
+}
+body {    
+    background-color: rgba(19, 18, 18, 1);
+    font-family: sans-serif;   
+}
+
+header{
+    margin-top: 20ex;
+    color: white;
+    margin: 20px;    
+    text-align: center;
+    font-size: 1em;
+}
+form{
+    margin-top: 20ex;
+}
+input{
+    display: flex;
+    border-bottom: 10ex;
+    border-radius: 5%;
+    margin-left: 110ex;
+    height: 10ex;
+    width: 30ex;
+    align-items: center;
+    text-align: center;
+    align-content: center ;
+
+}
+
+input.conf{   
+    background: rgba(13, 102, 92, 0.93);
+   height: 8ex;
+   width: 16ex;
+   margin-left: 118ex;
+   border-radius: 20px;  
+} 
+.conf:hover{
+     cursor: pointer;
+     animation-delay: 0.4s;
+     background-color: rgb(184, 248, 250);
+}
+
+
+a{
+    color: yellow;
+    margin-right: 15ex;
+    margin-left: 0ex;
+    height: 9ex;
+    width: 13ex;
+   
+}
